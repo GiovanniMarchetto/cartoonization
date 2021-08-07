@@ -6,6 +6,11 @@ The first goal was to create a function to render images with the cartoon type.
 
 The second goal was to look for a way to do cartoonization without using the gradient, since there was already a similar function.
 
+### Prerequisites
+The command you refer to is part of the following collection: https://it.mathworks.com/matlabcentral/fileexchange/12191-bilateral-filtering
+
+In addition, the function of bilateral filtering in it was also used.
+
 ## Files
 
 - _medianCartoon_, operates a median filtering
