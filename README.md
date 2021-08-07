@@ -1,7 +1,7 @@
 # Cartoonization
 University project for the cartoonization of an image
 
-## Description
+## Targets
 The first goal was to create a function to render images with the cartoon type.
 
 The second goal was to look for a way to do cartoonization without using the gradient, since there was already a similar function.
