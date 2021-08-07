@@ -1,6 +1,6 @@
 %% Main
 
-img = imread('..\alpi.tif');
+img = imread('.\image.tif');
 
 if(size(img,3)>3)
     A(:,:,1)=img(:,:,1);
