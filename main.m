@@ -2,7 +2,7 @@
 clearvars
 close all
 
-img = imread('..\alpi.tif');
+img = imread('.\image.tif');
 
 C1 = cartoon2(img,10);
 C11 = addEdge(C1);
