@@ -1,4 +1,4 @@
-%% Main
+%% Some tries without Lab conversion
 
 img = imread('.\image.tif');
 
