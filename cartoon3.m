@@ -6,7 +6,9 @@ function ImgCartoon = cartoon3(originalImg,nThr)
        img = colorspace('Lab<-RGB',originalImg);
     end
     
-    img(:,:,1) = clusterCartoon(bilaterImgFilter(img(:,:,1)),nThr);
+    bil = bilaterImgFilter(img(:,:,1));
+    bil = addEdge(bil);
+    img(:,:,1) = clusterCartoon(bil,nThr);
 
     if exist('applycform','file')
        ImgCartoon = applycform(img,makecform('lab2srgb'));
